@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* Center the filter list layout */
+.filter-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Increase font size for the search results */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+/* Improve input and dropdown spacing */
+.filter-list input,
+.filter-list .dropdown,
+.filter-list .dropdown-toggle {
+  margin: 10px 0;
+  font-size: 16px;
+  width: 200px;
+}
+
+/* Fix alignment of dropdown menu items */
+.dropdown-menu {
+  text-align: left;
+}
+
+/* Make dropdown items bigger */
+.dropdown-menu .dropdown-item {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
